@@ -23,7 +23,7 @@ if(UNIX)
 endif(UNIX)
 
 include_directories("test")
-add_subdirectory("test")
+#add_subdirectory("test")
 
 install(TARGETS GKlib
   ARCHIVE DESTINATION lib/${LINSTALL_PATH}
